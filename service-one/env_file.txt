@@ -1,0 +1,7 @@
+# Save it as `.env`
+
+
+MQ_HOSTNAME=localhost
+MQ_PORT=5672
+MQ_USERNAME=rmquser
+MQ_PASSWORD=rmqpass
