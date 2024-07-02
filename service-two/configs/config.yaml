@@ -1,0 +1,11 @@
+mq:
+  sub:
+    - exchange: content
+      bindings:
+        - queue: que1
+          routing_key: rtk1
+  pub:
+    - exchange: content
+      bindings:
+        - queue: que2
+          routing_key: rtk2
